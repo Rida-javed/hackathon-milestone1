@@ -1,0 +1,149 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .left-sidebar,
+  .right-sidebar {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .section-heading {
+    font-family: "Peaches and Cream", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #c0c0c0;
+    text-shadow: 0 0 5px #352a2adc, 0 0 10px #c0c0c0, 0 0 15px #c0c0c0,
+      0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+  }
+  .sub-heading {
+    font-family: "Peaches and Cream", serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .main-text {
+    text-align: justify;
+    hyphens: auto;
+    font-size: 24px;
+  }
+  .linkedin-link {
+    font-size: 24px;
+    color: #0e76a8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #toggle-skills {
+    background: #0c8baa;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.5s;
+    margin-top: 20px;
+  }
+  #toggle-skills:hover {
+    background: #884bce;
+    box-shadow: 0 0 40px rgba(10, 74, 94, 0.8), 0 0 70px rgba(212, 113, 113, 0.6);
+  }
+  #toggle-skills:active {
+    transform: scale(0.95);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+   */
+
+
+
+
+   /* Style for the container with added border-radius */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0px;
+    box-shadow: 50px #e63946;
+  }
+
+
+
+   .container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px; /* Rounded corners for the container */
+    overflow: hidden; /* To prevent child elements from overflowing the rounded corners */
+    box-shadow: 0 50px 50px rgb(204, 32, 61); /* Optional: Adds a subtle shadow for depth */
+    width: 80%;
+}
+
+/* Style for the left sidebar with a darker background */
+.left-sidebar {
+    width: 40%;
+    background-color: #2f2f2f; /* Dark background for the left sidebar */
+    color: white; /* Optional: Text color for better readability */
+    border-right: 3px solid rgb(204, 32, 61); /* Pink border on the right side */
+    border-width: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the right sidebar */
+.right-sidebar {
+    width: 70%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    float: right;
+    line-height: 30px;
+}
+
+/* Style for the button */
+#toggle-skills {
+    background: pink; /* Button color set to pink */
+    color: rgb(204, 32, 61);
+    border: rgb(212, 13, 63);
+    border-radius: 50px;
+    padding: 222px 25px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    border-color: #e63946;
+}
+
+#toggle-skills:hover {
+    background: #ff66b2; /* Darker pink shade on hover */
+    box-shadow: 0 0 40px rgba(255, 105, 180, 0.8), 0 0 70px rgba(255, 182, 193, 0.6);
+}
+
+#toggle-skills:active {
+    transform: scale(0.95);
+}
+
+/* Style for the profile picture */
+.profile-photo {
+    border-right: 3px solid rgb(204, 32, 61); /* Pink border on the right side of the image */
+    border-width: 6px;
+    border-radius: 15px; /* Slightly rounded corners */
+    padding-right: 3px; /* Some padding for better visibility of the border */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: 400px;
+}; 
